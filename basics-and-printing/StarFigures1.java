@@ -1,10 +1,15 @@
 /*
 Using println statements, output the following figure to console. 
 
-****
-***
-** 
-*
+*****
+ ****
+  ***
+   **
+    *
+   **
+  ***
+ ****
+*****
 
 */ 
 public class StarFigures1 {
