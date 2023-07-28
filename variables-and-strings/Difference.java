@@ -9,7 +9,6 @@ The other is what appears on the "console."
 
 Fun pattern is \'"\\" but empty pattern is "".
 */
-
 public class Difference {
     
 }
