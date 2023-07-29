@@ -1,5 +1,5 @@
 //  This program computes the total amount owed for a meal,
-//  assuming 8% tax and a 15% tip.
+//  assuming 8% tax and a 15% tip. * reduce all redunancy 
 public class Receipt {
 	public static void main(String[] args) {
 		System.out.println("Subtotal:");
