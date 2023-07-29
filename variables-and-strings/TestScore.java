@@ -3,8 +3,7 @@ public class TestScore {
         int mathScore = 490;
         int readingScore = 710;
         int writingScore = 350;
-
-        /* TODO */
-        // your code here.
+        double totalScore = ((350+710+490)* 1/3 );
+        System.out.println(totalScore);
     }
 }

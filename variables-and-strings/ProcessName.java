@@ -4,8 +4,12 @@
  
 public class ProcessName {
     public static void main(String[] args) {
-        String name = "Jesse Pinkman";
+        String name = "John Doe";
+        char firstInitial = name.charAt(0);
+        int spaceIndex = name.indexOf(' ');
+        String lastName = name.substring(spaceIndex + 1 );
+        System.out.println(lastName + ", " + firstInitial + "." );
         
-        // your code goes here
+    
     }
 }
