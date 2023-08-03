@@ -12,6 +12,12 @@ public class MultiplicationTables {
         // 8   16   24   32   40   48   56   64   72   80 
         // 9   18   27   36   45   54   63   72   81   90 
         // 10   20   30   40   50   60   70   80   90   100  
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 1; j <= 10; j++) {
+                System.out.print(i * j + " ");
+            }
+            System.out.println();
+        }
         
     }
 }
