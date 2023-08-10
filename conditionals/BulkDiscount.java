@@ -23,6 +23,18 @@ public class BulkDiscount {
     // the method should return whether or not the discount was applied to the order
 
     public static boolean bulkDiscount(String product, double unitPrice, int quantity) { 
+        double totalCost = unitPrice * quantity; 
+        System.out.println();
+        System.out.println("You bought " + quantity + " " + product + ".");
+        System.out.println("The total cost is " + totalCost);
+        
+        if (totalCost >= 500) {
+            double discount1 = 0.1 * totalCost;
+            discount1 = totalCost - discount1;
+            System.out.println("The total cost after the discount is " + discount1);
+            return true;   
+        } else 
+            return false;
         
         
     }
