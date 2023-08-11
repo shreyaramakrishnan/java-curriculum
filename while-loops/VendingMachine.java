@@ -16,14 +16,13 @@ public class VendingMachine {
  */
 
     public static void vendDrink(Scanner scan) { 
-        System.out.println("Which drink would you like?");
-        System.out.print("1 for water, 2 for soda, 3 for juice: ");
-        int choice = scan.nextInt();
-        if (choice == 1) { 
-            System.out.println("Pouring water!");
-        } else if (choice == 2) { 
-            System.out.println("Dispensing soda!");
-        } else if (choice == 3) { 
+        System.out.println("What would you like to drink?");
+        int num = scan.nextInt();
+        if (num == 1) {
+            System.out.println("Pouring Water!");
+        } else if (num == 2) {
+            System.out.println("Dispensing Soda!");
+        } else if (num == 3) {
             System.out.println("Squeezing fresh juice!");
         } else {
             System.out.println("Invalid choice!");

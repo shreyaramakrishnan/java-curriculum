@@ -15,20 +15,20 @@ public class EvenSumMax {
     // should report the even sum and the even max once -1 is entered
 
     public static void evenSumMax(Scanner scan) { 
-        int val = -2;
-        int evenSum = 0; 
-        int evenMax = 0;
-        while (val != -1) {
-            System.out.print("next integer (type -1 to quit): ");
-            val = scan.nextInt();
-            if (val % 2 == 0) { 
-                evenSum += val;
-                if (val > evenMax) { 
-                    evenMax = val;
+        System.out.println("Type any integer.");
+        int sum = 0;
+        int max = 0;
+        int num = scan.nextInt();
+        while (num != -1) {
+            if (num % 2 == 0) {
+                sum = num + sum;
+                if (num > max) {
+                    max = num;
                 }
             }
-        }
-        System.out.println("even sum = " + evenSum);
-        System.out.println("even max = " + evenMax);
+            num = scan.nextInt();
+        } 
+        System.out.println("Even sum = " + sum);
+        System.out.println("Even max = " + max);
     }
 }
