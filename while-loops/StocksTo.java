@@ -16,6 +16,22 @@ public class StocksTo {
  */
 
     public static int stocksTo(Random r, int max) {
-        return 0;
+        int total = 0;
+        int days = 0;
+         while (total < max) {
+            int money = r.nextInt(6) + 1;
+            total += money;
+            days += 1;
+            System.out.println("This is how much I earned on day " + days + ": " + money);
+        }
+        return days; 
+
+        // keep track of total money
+        // keep track of days
+        // while total < max 
+            // get random int 
+            // add to the sum 
+            // add to the days
+        // return days
     }
 }
