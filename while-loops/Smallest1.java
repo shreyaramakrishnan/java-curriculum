@@ -13,5 +13,27 @@ public class Smallest1 {
      * the user. (You may assume the user will enter at least 1 nonnegative number). 
      */
     public static void smallest1(Scanner console) {
+        System.out.print("Please enter a number: ");
+        int number = console.nextInt();
+        int min = number;
+        while (number > 0) {
+            if (min > number) {
+                min = number;
+            }
+            System.out.println("Please enter another number.");
+            number = console.nextInt();
+
+
+            
+        }
+        System.out.println("The smallest nonnegative number entered was " + min );
+
+
+        // ask user for number 
+        // declare variable outside for min
+        // while number != negative
+        // if min > num 
+        // min = num
+        // 
     }
 }

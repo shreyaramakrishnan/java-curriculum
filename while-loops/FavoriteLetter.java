@@ -18,6 +18,17 @@ public class FavoriteLetter {
      */
     
     public static void favoriteLetter(Scanner console, String letter) { 
-      
+        System.out.print("Plesae enter your favorite letter: ");
+        String input = console.next();
+        System.out.print("Please enter a word: ");
+        String word = console.next();
+        while (!word.contains(input) && word.substring(0) != input) {
+            System.out.print("Input is invalid, please enter another word: ");
+            word = console.next();
+        }
+        System.out.println("Your entered word, " + word + ", starts with your favorite letter, " + input + ".");
     }
+        
+      
+
 }
