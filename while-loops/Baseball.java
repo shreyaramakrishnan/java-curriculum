@@ -62,9 +62,9 @@ public class Baseball {
             total2 = num2 + total2;
             System.out.println("We are still at a tie. Team one has; " + total + " points" + " and Team two has; " + total2 + " points." + " We are on inning " + innings);
             System.out.println("Please enter another set of two numbers seperated with a space.");
-    
         }
-     } else if (total > total2) {
+    }
+     if (total > total2) {
         System.out.println("The game is now over, the team that won was Team One, with " + total + " runs.");
      } else {
         System.out.println("The game is now over. The team that won was Team Two was " + total2 + " runs.");

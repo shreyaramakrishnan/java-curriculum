@@ -1,0 +1,217 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Addition",
+            "request": "launch",
+            "mainClass": "Addition",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "AsciiArt",
+            "request": "launch",
+            "mainClass": "AsciiArt",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Baseball",
+            "request": "launch",
+            "mainClass": "Baseball",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "BulkDiscount",
+            "request": "launch",
+            "mainClass": "BulkDiscount",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Countdown",
+            "request": "launch",
+            "mainClass": "Countdown",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "DaysInMonth",
+            "request": "launch",
+            "mainClass": "DaysInMonth",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Debugging",
+            "request": "launch",
+            "mainClass": "Debugging",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Difference",
+            "request": "launch",
+            "mainClass": "Difference",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Displacement",
+            "request": "launch",
+            "mainClass": "Displacement",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "EvenSumMax",
+            "request": "launch",
+            "mainClass": "EvenSumMax",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "FavoriteLetter",
+            "request": "launch",
+            "mainClass": "FavoriteLetter",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTables",
+            "request": "launch",
+            "mainClass": "MultiplicationTables",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "MyInfo",
+            "request": "launch",
+            "mainClass": "MyInfo",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "MyProgram",
+            "request": "launch",
+            "mainClass": "MyProgram",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "NestedNumbers",
+            "request": "launch",
+            "mainClass": "NestedNumbers",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "PayDay",
+            "request": "launch",
+            "mainClass": "PayDay",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "ProcessName",
+            "request": "launch",
+            "mainClass": "ProcessName",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "ProcessName2",
+            "request": "launch",
+            "mainClass": "ProcessName2",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Quarters",
+            "request": "launch",
+            "mainClass": "Quarters",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Receipt",
+            "request": "launch",
+            "mainClass": "Receipt",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "RollSix",
+            "request": "launch",
+            "mainClass": "RollSix",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Smallest1",
+            "request": "launch",
+            "mainClass": "Smallest1",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "StarFigures1",
+            "request": "launch",
+            "mainClass": "StarFigures1",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "StocksTo",
+            "request": "launch",
+            "mainClass": "StocksTo",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "SummingUp",
+            "request": "launch",
+            "mainClass": "SummingUp",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "TestScore",
+            "request": "launch",
+            "mainClass": "TestScore",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "Twos",
+            "request": "launch",
+            "mainClass": "Twos",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "VendingMachine",
+            "request": "launch",
+            "mainClass": "VendingMachine",
+            "projectName": "java-curriculum_550f229"
+        }
+    ]
+}
