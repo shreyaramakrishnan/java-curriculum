@@ -1,3 +1,5 @@
+package conditionals;
+
 public class PayDay {
     public static void main(String[] args) {
         System.out.println(pay(5.50, 6));
