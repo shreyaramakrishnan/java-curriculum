@@ -22,7 +22,7 @@ public class FavoriteLetter {
         String input = console.next();
         System.out.print("Please enter a word: ");
         String word = console.next();
-        while (!word.contains(input) && word.substring(0) != input) {
+        while (!word.startsWith(input)) {
             System.out.print("Input is invalid, please enter another word: ");
             word = console.next();
         }
