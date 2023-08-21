@@ -1,3 +1,5 @@
+package conditionals;
+
 public class DaysInMonth {
     public static void main(String[] args) {
         System.out.println(daysInMonth(1));
