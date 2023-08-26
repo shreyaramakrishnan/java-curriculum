@@ -63,19 +63,21 @@ public class Baseball {
             System.out.println("We are still at a tie. Team one has; " + total + " points" + " and Team two has; " + total2 + " points." + " We are on inning " + innings);
             System.out.println("Please enter another set of two numbers seperated with a space.");
         }
+        if (total > total2) {
+            System.out.println("The game is now over, the team that won was Team One, with " + total + " runs.");
+        }  
+        else {
+            System.out.println("The game is now over. The team that won was Team Two was " + total2 + " runs.");
+        }
     }
-     if (total > total2) {
-        System.out.println("The game is now over, the team that won was Team One, with " + total + " runs.");
-     } else {
-        System.out.println("The game is now over. The team that won was Team Two was " + total2 + " runs.");
-     }
+    
 
 
     }
 }
-// first ask user to enter number or runs scored during each innings ; sepereated by a space
+    // first ask user to enter number or runs scored during each innings ; sepereated by a space
      // variable outside for innings 
-     // while !team 1 or team 2 > 10 || innings = 9 
+     // while !team 1 or team 2 < 10 || innings = 9 
      // innings = innigs + 1 
      // print how much the teams are at as of now 
      // ask the user to input the two teams runs scored again 

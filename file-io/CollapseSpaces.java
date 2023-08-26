@@ -7,8 +7,20 @@ import java.io.*;
 
 public class CollapseSpaces{
     public static void main(String[] args)throws FileNotFoundException{
-        Scanner fileScan = new Scanner(new File("input.txt"));
+        Scanner fileScan = new Scanner(new File("/Users/srithikabarakam/java-curriculum/file-io/input.txt"));
         collapseSpaces(fileScan);
+    }
+
+    public static void collapseSpaces(Scanner fileScan) throws NoSuchElementException{
+        while (fileScan.hasNextLine()) {
+            String line = fileScan.nextLine();
+            Scanner lineScan = new Scanner(line);
+            while (lineScan.hasNext()) {
+                String word = lineScan.next();
+                System.out.print(word + " " );
+            }
+            System.out.println();
+        }
     }
 
     // Your code here -> Write a method called

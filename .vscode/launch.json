@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CollapseSpaces",
+            "request": "launch",
+            "mainClass": "CollapseSpaces",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumbers",
+            "request": "launch",
+            "mainClass": "EvenNumbers",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "FlipLines",
+            "request": "launch",
+            "mainClass": "FlipLines",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

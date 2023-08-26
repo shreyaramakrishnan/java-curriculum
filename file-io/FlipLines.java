@@ -7,11 +7,27 @@ import java.util.*;
 
 public class FlipLines {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner fileScan = new Scanner(new File("jabberwock.txt"));
+        Scanner fileScan = new Scanner(new File("/Users/srithikabarakam/java-curriculum/file-io/jabberwock.txt"));
         flipLines(fileScan);
     }
 
     /* TODO */
     // implement flipLines() below.
+    public static void flipLines(Scanner fileScan) {
+        while (fileScan.hasNextLine()) {
+            String firstLine = fileScan.nextLine();
+            if (fileScan.hasNextLine()) {
+                String secondLine = fileScan.nextLine();
+                System.out.println(secondLine);
+                
+
+
+            }
+            System.out.println(firstLine);
+        }
+        
+
+
+    }
     
 }
