@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VowelCount",
+            "request": "launch",
+            "mainClass": "arrays.VowelCount",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "PercentEvens",
+            "request": "launch",
+            "mainClass": "arrays.PercentEvens",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "IsSorted",
+            "request": "launch",
+            "mainClass": "arrays.IsSorted",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "FindMin",
+            "request": "launch",
+            "mainClass": "arrays.FindMin",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
             "name": "CollapseSpaces",
             "request": "launch",
             "mainClass": "CollapseSpaces",

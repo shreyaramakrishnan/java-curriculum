@@ -11,6 +11,22 @@ public class VowelCount {
     }
 
     private static int[] vowelCount(String string) {
-        return null;
+        int array[] = new int [5];
+        for (int i = 0; i < string.length(); i++) {
+            char letter = string.charAt(i);
+            if (letter == 'a') {
+                array[0] = array[0] + 1;
+            } else if (letter == 'e') {
+                array[1] = array[1] + 1;
+            } else if (letter == 'i') {
+                array[2] = array[2] + 1;
+            } else if (letter == 'o') {
+                array[3] = array[3] + 1;
+            } else if (letter == 'u') {
+                array[4] = array[4] + 1;
+            }
+        }
+
+        return array;
     }
 }

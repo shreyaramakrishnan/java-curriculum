@@ -14,6 +14,12 @@ public class FindMin {
     // findMin for this problem
 
     public static void findMin(int[] arr) { 
-        
+        int numberMin = arr[0]; 
+        for (int i = 0; i < arr.length; i++ ) {
+            if (numberMin > arr[i]) {
+                numberMin = arr[i];
+            }
+        }
+        System.out.println("The minimum of this array is: " + numberMin); 
     }
 }
