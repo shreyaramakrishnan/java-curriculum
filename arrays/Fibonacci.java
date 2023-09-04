@@ -21,7 +21,9 @@ public class Fibonacci {
         System.out.println(Arrays.toString(arr2));
     }
 
-    private static void fibonacci(int[] arr2) {
-    }
-
-}
+    private static void fibonacci(int[] arr) {
+        for (int i = 2; i < arr.length; i++) {
+                arr[i] = arr[i-1] + arr[i-2];
+            }
+        }
+    } 
