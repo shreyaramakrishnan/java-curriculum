@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "arrays.Fibonacci",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "SwapPairs",
+            "request": "launch",
+            "mainClass": "arrays.SwapPairs",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "RotateLeft",
+            "request": "launch",
+            "mainClass": "arrays.RotateLeft",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
             "name": "VowelCount",
             "request": "launch",
             "mainClass": "arrays.VowelCount",

@@ -21,5 +21,11 @@ public class SwapPairs {
      */
 
     public static void swapPairs(String[] arr) { 
+        for (int i = 0; i < arr.length-1; i+=2) {
+            String temp = arr[i];
+            arr[i] = arr[i+1];
+            arr[i+1] = temp;
+
+        }
     }
 }
