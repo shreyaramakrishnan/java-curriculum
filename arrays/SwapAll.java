@@ -15,7 +15,12 @@ public class SwapAll {
      * entire contents. You may assume that the arrays passed
      *  are not null and are the same length.
      */
-    public static void swapAll(int[] arr) {
+    public static void swapAll(int[] arr1, int[] arr2) {
+        for (int i = 0; i < arr1.length; i++) {
+            int temp = arr1[i];
+            arr1[i] = arr2[i];
+            arr2[i] = temp;
+        }
         // TODO: Your code here
     }
 }

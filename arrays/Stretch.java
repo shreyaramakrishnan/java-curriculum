@@ -1,3 +1,5 @@
+package arrays;
+
 import java.util.*;
 public class Stretch {
     public static void main(String[] args) {
@@ -19,4 +21,20 @@ public class Stretch {
      * be one higher than the second so that the sum equals the 
      * original number.
      */
+
+    public static int[] stretch(int[] arr) {
+        int i2 = 0;
+        int[] arr2 = new int[arr.length*2];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]%2==0) {
+                arr2[i2] = arr[i]/2;
+                arr2[i2+1] = arr[i]/2;
+            } else {
+                arr2[i2] = arr[i]/2 +1;
+                arr2[i2+1] = arr[i]/2;
+            }
+            i2+=2;
+        }
+        return arr2;
+    }
 }

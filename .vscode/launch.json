@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stretch",
+            "request": "launch",
+            "mainClass": "arrays.Stretch",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
+            "name": "SwapAll",
+            "request": "launch",
+            "mainClass": "arrays.SwapAll",
+            "projectName": "java-curriculum_550f229"
+        },
+        {
+            "type": "java",
             "name": "Fibonacci",
             "request": "launch",
             "mainClass": "arrays.Fibonacci",

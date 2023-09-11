@@ -10,6 +10,13 @@ public class CopyRange {
     }
 
     // TODO: write the static method copyRange
+    public static void copyRange(int[] a1, int[] a2 , int i1, int i2, int l) {
+        for (int i = i1; i < l+i1 ; i++) {
+            a2[i2] = a1[i];
+            i2++;
+
+        }
+    }
 
     /* Write a static method named copyRange that takes 
     as parameters two arrays a1 and a2, two starting indexes 
